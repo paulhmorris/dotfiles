@@ -7,3 +7,6 @@
 .claude/CLAUDE.md
 .claude/statusline-command.sh
 .claude/skills
+.config/ghostty/config
+.npmrc
+.gitconfig

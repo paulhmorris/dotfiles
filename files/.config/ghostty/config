@@ -1,0 +1,21 @@
+confirm-close-surface = false
+working-directory = home
+shell-integration = zsh
+shell-integration-features = no-title, ssh-terminfo
+
+# theme = Aura
+theme = Black Metal (Burzum)
+background = #131313
+
+font-family = "SF Mono"
+font-size = 12
+
+window-padding-x = 24
+window-padding-y = 12
+window-colorspace = display-p3
+window-subtitle = false
+window-save-state = always
+
+macos-titlebar-proxy-icon = hidden
+macos-titlebar-style = tabs
+keybind = shift+enter=text:\x1b\r

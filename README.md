@@ -13,6 +13,9 @@ back into place. Works on macOS and Linux.
   up any existing real file first.
 - `add.sh` — moves an existing file/dir under `$HOME` into `files/`,
   symlinks it back, and adds it to the manifest.
+- `Brewfile` — macOS Homebrew taps/formulae/casks, via `brew bundle`.
+- `brew-dump.sh` — refreshes `Brewfile` from what's currently installed.
+- `brew-install.sh` — installs everything in `Brewfile` (macOS only).
 
 ## Usage
 
@@ -26,6 +29,19 @@ cd ~/dotfiles
 
 Existing files at the target paths are moved to `~/.dotfiles-backup/<timestamp>/`
 before the symlink is created — nothing is deleted.
+
+On macOS, restore all Homebrew packages:
+
+```sh
+./brew-install.sh
+```
+
+After installing/removing brew packages, refresh the list:
+
+```sh
+./brew-dump.sh
+git add Brewfile && git commit -m "update Brewfile"
+```
 
 Add a new file to track:
 

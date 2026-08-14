@@ -35,4 +35,6 @@ while IFS= read -r rel; do
   echo "link $rel"
 done < "$MANIFEST"
 
-[ -d "$BACKUP_DIR" ] && echo "backups saved to $BACKUP_DIR"
+if [ -d "$BACKUP_DIR" ]; then
+  echo "backups saved to $BACKUP_DIR"
+fi
