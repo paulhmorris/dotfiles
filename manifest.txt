@@ -11,3 +11,4 @@
 .npmrc
 .gitconfig
 .agents/.skill-lock.json
+.tmux.conf
