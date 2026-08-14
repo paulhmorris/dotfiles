@@ -1,0 +1,67 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Global settings
+add_newline = true
+
+# Define the order of the prompt
+# Line 1: Directory, AWS, Node, Git, and Right-aligned Time
+# Line 2: The character prompt ($)
+format = """
+$directory\
+$aws\
+$nodejs\
+$git_branch\
+$git_status\
+$fill\
+$line_break\
+$character"""
+
+# Define what goes on the right side of the first line
+right_format = "$time"
+
+[directory]
+style = "purple"
+truncation_length = 3
+truncate_to_repo = true
+
+[aws]
+format = "on [$symbol($profile )]($style)"
+symbol = "☁️  "
+style = "yellow"
+
+[nodejs]
+format = "[$symbol($version )]($style)"
+style = "#84BA64"
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+style = "fg:242"
+
+[git_status]
+format = "([$all_status$ahead_behind]($style) )"
+conflicted = "🏳 "
+ahead = "🏎💨"
+behind = "🐢"
+diverged = "🔱"
+untracked = "🤷 "
+stashed = "📦 "
+modified = "📝 "
+staged = "✅ "
+renamed = "📛 "
+deleted = "🗑 "
+
+[fill]
+symbol = " " # Fills the gap between left and right prompt
+
+[time]
+disabled = false
+format = "[$time]($style)"
+time_format = "%d %b %H:%M:%S %z"
+style = "fg:242"
+
+[character]
+success_symbol = "[\\$](purple)"
+error_symbol = "[\\$](purple)"
+
+[line_break]
+disabled = false

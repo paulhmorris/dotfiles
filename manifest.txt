@@ -1,0 +1,9 @@
+# One path per line, relative to $HOME. Lines starting with # are skipped.
+# Comment out a line to skip it on a given machine (e.g. macOS-only files on Linux).
+
+.zshrc
+.config/starship.toml
+.claude/settings.json
+.claude/CLAUDE.md
+.claude/statusline-command.sh
+.claude/skills

@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Read",
+      "Edit",
+      "WebFetch",
+      "Grep",
+      "Glob",
+      "LS",
+      "NotebookRead",
+      "TodoRead"
+    ],
+    "deny": [
+      "Read(**/.env*)",
+      "Read(**/.env.local)",
+      "Read(**/.env.production)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(**/secrets/**)",
+      "Read(**/.aws/**)",
+      "Read(**/.ssh/**)",
+      "Read(**/journal/**)"
+    ]
+  },
+  "model": "sonnet",
+  "disableClaudeAiConnectors": true,
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline-command.sh"
+  },
+  "enabledPlugins": {
+    "mattpocock-skills@claude-plugins-official": true
+  },
+  "effortLevel": "medium",
+  "theme": "auto"
+}
