@@ -10,3 +10,4 @@
 .config/ghostty/config
 .npmrc
 .gitconfig
+.agents/.skill-lock.json

@@ -4,6 +4,8 @@ tap "fastrepl/fastrepl", "https://github.com/fastrepl/homebrew-fastrepl.git"
 brew "awscli"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # Command-line tools for fly.io services

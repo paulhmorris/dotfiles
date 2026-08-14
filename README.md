@@ -16,6 +16,8 @@ back into place. Works on macOS and Linux.
 - `Brewfile` — macOS Homebrew taps/formulae/casks, via `brew bundle`.
 - `brew-dump.sh` — refreshes `Brewfile` from what's currently installed.
 - `brew-install.sh` — installs everything in `Brewfile` (macOS only).
+- `skills-install.sh` — reinstalls global [npx skills](https://skills.sh)
+  packages from `.agents/.skill-lock.json`.
 
 ## Usage
 
@@ -41,6 +43,12 @@ After installing/removing brew packages, refresh the list:
 ```sh
 ./brew-dump.sh
 git add Brewfile && git commit -m "update Brewfile"
+```
+
+Restore global `npx skills` packages:
+
+```sh
+./skills-install.sh
 ```
 
 Add a new file to track:

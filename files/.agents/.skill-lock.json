@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "c2f31172b6f256272305a5e6e7228b258446899f",
+      "installedAt": "2026-02-26T03:53:27.046Z",
+      "updatedAt": "2026-02-26T03:53:27.046Z"
+    },
+    "sentry-sdk-upgrade": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-sdk-upgrade/SKILL.md",
+      "skillFolderHash": "b0f09524365df3e89a2846990922a25a781ece00",
+      "installedAt": "2026-07-06T16:40:25.440Z",
+      "updatedAt": "2026-07-06T16:40:25.440Z"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "skillFolderHash": "8320e7b87f7b208f50ce165b1dd43d1e93c8e801",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-09T02:30:43.570Z",
+      "updatedAt": "2026-07-09T02:30:43.570Z"
+    },
+    "grill-with-docs": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
+      "skillFolderHash": "21adba95de7d93065d9fec725ddf37f871e01d05",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-09T02:30:43.573Z",
+      "updatedAt": "2026-07-09T02:30:43.573Z"
+    },
+    "wayfinder": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/wayfinder/SKILL.md",
+      "skillFolderHash": "83a96a4454c069148d8648fd21ca62a58ac15db2",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-09T02:30:43.574Z",
+      "updatedAt": "2026-07-09T02:30:43.574Z"
+    },
+    "codebase-design": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/codebase-design/SKILL.md",
+      "skillFolderHash": "c5dfc023e5ae146a4ceb9c509024f6ffe13db4a3",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-09T02:30:43.574Z",
+      "updatedAt": "2026-07-09T02:30:43.574Z"
+    },
+    "setup-matt-pocock-skills": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "skillFolderHash": "3676b312e22e6b615c24e575cf9382a6da3016dd",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-09T02:30:43.575Z",
+      "updatedAt": "2026-07-09T02:30:43.575Z"
+    },
+    "better-auth-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/best-practices/SKILL.md",
+      "skillFolderHash": "2ab82b0b744f426903e321f4abcf0440c6e201ca",
+      "pluginName": "auth-skills",
+      "installedAt": "2026-07-31T18:11:10.809Z",
+      "updatedAt": "2026-07-31T18:11:10.809Z"
+    },
+    "two-factor-authentication-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/twoFactor/SKILL.md",
+      "skillFolderHash": "d6deb736c46a34eca259b65c646f988b60a1ff85",
+      "installedAt": "2026-07-31T18:11:10.811Z",
+      "updatedAt": "2026-07-31T18:11:10.811Z"
+    },
+    "email-and-password-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/emailAndPassword/SKILL.md",
+      "skillFolderHash": "9da895cd339e3eda0ba6d1b8d2b54e24799b1992",
+      "installedAt": "2026-07-31T18:11:10.813Z",
+      "updatedAt": "2026-07-31T18:11:10.813Z"
+    },
+    "better-auth-security-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "security/SKILL.md",
+      "skillFolderHash": "7cd035c1dd03aafc236ea43492d31ca3306b7ab6",
+      "installedAt": "2026-07-31T18:11:10.813Z",
+      "updatedAt": "2026-07-31T18:11:10.813Z"
+    },
+    "create-auth": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/create-auth/SKILL.md",
+      "skillFolderHash": "05ce3d9f5b7fcf20379dacc66afdfcd8f1c5cfbc",
+      "pluginName": "auth-skills",
+      "installedAt": "2026-07-31T18:11:10.818Z",
+      "updatedAt": "2026-07-31T18:11:10.818Z"
+    },
+    "shadcn-svelte": {
+      "source": "huntabyte/shadcn-svelte",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/huntabyte/shadcn-svelte.git",
+      "skillPath": "skills/shadcn-svelte/SKILL.md",
+      "skillFolderHash": "4b450ce92bd2b2e4e19f0f1928c5eb6da3d53dce",
+      "installedAt": "2026-08-03T20:35:22.407Z",
+      "updatedAt": "2026-08-03T20:35:22.407Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed",
+    "claude-code"
+  ]
+}
