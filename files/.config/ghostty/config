@@ -18,4 +18,10 @@ window-save-state = always
 
 macos-titlebar-proxy-icon = hidden
 macos-titlebar-style = tabs
+
 keybind = shift+enter=text:\x1b\r
+keybind = ctrl+super+alt+shift+space=text:\x1b[9s
+keybind = cmd+i=text:\x1b[9i
+keybind = cmd+j=text:\x1b[9j
+keybind = cmd+K=text:\x1b[9k
+keybind = cmd+l=text:\x1b[9l
